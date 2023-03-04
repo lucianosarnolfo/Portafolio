@@ -1,0 +1,32 @@
+.barraDeNavegacion{
+    width:100%;
+    position:absolute;
+    z-index:1;
+}
+
+.barraDeNavegacion ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.barraDeNavegacion ul li{
+    display: inline-block;
+    padding: 40px 15px;
+}
+
+.barraDeNavegacion ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.barraDeNavegacion ul li a:hover{
+    background: #fff;
+    color:#000;
+}
+
+
+
