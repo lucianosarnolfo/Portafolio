@@ -2,9 +2,9 @@ import React from 'react'
 import './Curriculum.css'
 import fotoPerfil from '../images/Foto-de-perfil.jpg'
 
-function Cuerpo() {
+function Curriculum() {
   return (
-    <div class="cuerpo">
+    <div class="curriculum">
     
     <section class="section">
     <div class="containerPrincipal container-fluid">
@@ -19,14 +19,7 @@ function Cuerpo() {
                 <th><i class="fa-solid fa-user"></i>SOBRE MI</th>
               </tr>
               <tr>
-                <td>Estudiante de Ing en
-                  Sistemas.
-                  Me considero una persona
-                  responsable y que se lleva
-                  bien trabajando en equipo.
-                  Buscando mi primera
-                  experiencia laboral en el
-                  rubro</td>
+                <td><p>Estudiante de ingenieria en sistemas, buscando mi primer trabajo en el area de programacion/desarrollo, me gusta la informatica y la musica.</p></td>
               </tr>
               <tr>
                 <th>
@@ -42,9 +35,13 @@ function Cuerpo() {
   
           </div>
 
-          <div class="col-lg-8 col--3 mr-4">
-            <td ><p id="titulo"> CURRICULUM VITAE</p></td>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis similique iusto nisi, architecto quos, ex sequi eum nam qui quasi earum labore itaque nihil tempora sunt aspernatur molestias dicta voluptates!
+          <div class="col-lg-8 col--3">
+            <td id="curriculum"><p> CURRICULUM VITAE</p>
+            <tr>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis similique iusto nisi, architecto quos, ex sequi eum nam qui quasi earum labore itaque nihil tempora sunt aspernatur molestias dicta voluptates!</tr>
+            <tr>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis similique iusto nisi, architecto quos, ex sequi eum nam qui quasi earum labore itaque nihil tempora sunt aspernatur molestias dicta voluptates!</tr>
+
+            
+            </td>
           </div>
           
           
@@ -71,4 +68,4 @@ function Cuerpo() {
 
 }
 
-export default Cuerpo
+export default Curriculum

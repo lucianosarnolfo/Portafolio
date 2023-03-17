@@ -8,12 +8,10 @@ function BarraDeNavegacion() {
        <div class="barraDeNavegacion">
         <ul>
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Curriculum</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#curriculum">Curriculum</a></li>
+          <li><a href="#curriculum">Contacto</a></li>
         </ul>
        </div>
-       
- 
   </div>
   )
 }
